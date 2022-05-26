@@ -1,0 +1,18 @@
+
+
+                         expression  ::=  lambdaExpression ;
+
+
+                   lambdaExpression  ::=  "λ"<NO_WHITESPACE>variable<NO_WHITESPACE>"."<NO_WHITESPACE>lambdaExpression 
+
+                                       |  lambdaExpression lambdaExpression
+
+                                       |  "(" lambdaExpression ")"
+
+                                       |  variable
+
+                                       ;
+
+
+                           variable  ::=  [name] ;
+
