@@ -3,7 +3,7 @@
                          expression  ::=  lambdaExpression ;
 
 
-                   lambdaExpression  ::=  "\\"<NO_WHITESPACE>variable<NO_WHITESPACE>":"<NO_WHITESPACE>type<NO_WHITESPACE>"."<NO_WHITESPACE>lambdaExpression
+                   lambdaExpression  ::=  "λ"<NO_WHITESPACE>variable<NO_WHITESPACE>":"<NO_WHITESPACE>type<NO_WHITESPACE>"."<NO_WHITESPACE>lambdaExpression
 
                                        |  lambdaExpression lambdaExpression
 
