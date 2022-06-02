@@ -1,0 +1,6 @@
+
+
+                     metastatement!  ::=  lambdaMetastatement ;
+
+
+                lambdaMetastatement  ::=  lambdaContext "|-" metavariable ;

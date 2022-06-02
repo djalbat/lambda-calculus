@@ -1,0 +1,14 @@
+
+
+                         statement!  ::=  lambdaStatement ;
+
+
+                    lambdaStatement  ::=  lambdaContext "|-" lambdaExpression 
+
+                                       |  lambdaExpression ":" type 
+
+                                       ;
+
+
+                      lambdaContext  ::=  variable ;
+
